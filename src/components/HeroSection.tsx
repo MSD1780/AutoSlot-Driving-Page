@@ -8,14 +8,6 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left animate-fade-in">
-            {/* Logo integrado en el hero */}
-            <div className="flex justify-center lg:justify-start mb-6">
-              <img 
-                src="/lovable-uploads/77045688-585a-446f-ba7f-6e292b8ee2a3.png" 
-                alt="AutoSlot Logo" 
-                className="h-16 w-auto mb-4"
-              />
-            </div>
             <h1 className="text-4xl lg:text-6xl font-bold font-inter text-primary-dark mb-6">
               Digitaliza tu Autoescuela con{" "}
               <span className="text-primary bg-gradient-primary bg-clip-text text-transparent">
