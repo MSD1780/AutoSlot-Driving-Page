@@ -8,7 +8,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/77045688-585a-446f-ba7f-6e292b8ee2a3.png" 
               alt="AutoSlot Logo" 
-              className="h-22 w-auto"
+              className="h-21 w-auto"
             />
           </div>
 
