@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold font-inter text-primary-dark mb-6">
               Digitaliza tu Autoescuela con{" "}
-              <span className="text-primary bg-gradient-primary bg-clip-text text-transparent">
+              <span className="text-brand-blue">
                 AutoSlot
               </span>
             </h1>
