@@ -23,7 +23,7 @@ const HeroSection = () => {
               size="lg"
               className="text-lg px-8 py-4 h-auto font-semibold"
             >
-              Prueba la versión Beta
+              Prueba Nuestra Demo
             </Button>
           </div>
 
