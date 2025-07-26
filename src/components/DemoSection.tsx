@@ -3,6 +3,10 @@ import { Play } from "lucide-react";
 import demoImage from "@/assets/demo-section.jpg";
 
 const DemoSection = () => {
+  const handleVideoClick = () => {
+    window.open('https://www.youtube.com/watch?v=179B3UfSUp0', '_blank');
+  };
+
   return (
     <section className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-4">
@@ -18,7 +22,12 @@ const DemoSection = () => {
               en segundos, mientras tú mantienes el control total de tu autoescuela.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="accent" size="lg" className="text-lg px-6 py-3 h-auto">
+              <Button 
+                variant="accent" 
+                size="lg" 
+                className="text-lg px-6 py-3 h-auto"
+                onClick={handleVideoClick}
+              >
                 <Play className="mr-2 h-5 w-5" />
                 Ver Demo
               </Button>
@@ -30,7 +39,7 @@ const DemoSection = () => {
 
           {/* Demo Visual */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-card group cursor-pointer">
+            <div className="relative rounded-2xl overflow-hidden shadow-card group cursor-pointer" onClick={handleVideoClick}>
               <img 
                 src={demoImage} 
                 alt="Demostración de AutoSlot" 
